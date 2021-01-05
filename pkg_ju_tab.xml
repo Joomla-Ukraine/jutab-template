@@ -2,7 +2,6 @@
 <extension type="package" version="3.9" method="upgrade">
 	<name>pkg_ju_tab</name>
 	<packagename>ju_tab</packagename>
-	<creationDate>@date@</creationDate>
 	<packager>Joomla! Ukraine</packager>
 	<copyright>Copyright (C) 2017-2021 Joomla! Ukraine. All Rights Reserved.</copyright>
 	<packageremail>denys@joomla-ua.org</packageremail>
