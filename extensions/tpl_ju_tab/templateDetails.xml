@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="template" version="3.9" method="upgrade">
+	<name>ju_tab</name>
+    <author>Joomla! Ukraine</author>
+    <authorEmail>denys@joomla-ua.org</authorEmail>
+    <authorUrl>https://joomla-ua.org</authorUrl>
+    <copyright>Copyright (C) 2017-2021 Joomla! Ukraine. All Rights Reserved.</copyright>
+    <license>GNU General Public License version 2 or later.</license>
+    <creationDate>@date@</creationDate>
+	<description>Template JUTab for SEBLOD CCK - https://joomla-ua.org</description>
+	<version>@version@</version>
+	
+	<files>
+		<folder>css</folder>
+		<folder>fields</folder>
+		<folder>images</folder>
+		<folder>includes</folder>
+		<folder>languages</folder>
+		<folder>positions</folder>
+		<folder>variations</folder>
+		<filename>config.php</filename>
+		<filename>index.php</filename>
+		<filename>template_picker.png</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+	</files>
+	
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.tpl_ju_tab.ini</language>
+	</languages>
+	
+	<positions>
+		<position>header</position>
+		<position>mainbody</position>
+		<position>colleft</position>
+		<position>colright</position>
+		<position>tab1</position>
+		<position>tab1_colleft</position>
+		<position>tab1_colright</position>
+		<position>tab2</position>
+		<position>tab2_colleft</position>
+		<position>tab2_colright</position>
+		<position>tab3</position>
+		<position>tab3_colleft</position>
+		<position>tab3_colright</position>
+		<position>tab4</position>
+		<position>tab4_colleft</position>
+		<position>tab4_colright</position>
+		<position>tab5</position>
+		<position>tab5_colleft</position>
+		<position>tab5_colright</position>
+		<position>tab6</position>
+		<position>tab6_colleft</position>
+		<position>tab6_colright</position>
+		<position>tab7</position>
+		<position>tab7_colleft</position>
+		<position>tab7_colright</position>
+		<position>tab8</position>
+		<position>tab8_colleft</position>
+		<position>tab8_colright</position>
+		<position>tab9</position>
+		<position>tab9_colleft</position>
+		<position>tab9_colright</position>
+		<position>tab10</position>
+		<position>tab10_colleft</position>
+		<position>tab10_colright</position>
+		<position>footer</position>
+		<position toggle="position_modal" toggle_value="1,2,3,4,5">modal</position>
+		<position toggle="position_modal" toggle_value="2,3,4,5">modal2</position>
+		<position toggle="position_modal" toggle_value="3,4,5">modal3</position>
+		<position toggle="position_modal" toggle_value="4,5">modal4</position>
+		<position toggle="position_modal" toggle_value="5">modal5</position>
+		<position toggle="position_hidden">hidden</position>
+		<position toggle="position_clear">clear</position>
+	</positions>
+	
+	<config addfieldpath="/libraries/cck/construction/field">
+		<fields name="params">
+			<fieldset name="tabs" label="Tabs">
+
+				<field name="tabname_1"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 1"
+				       class="inputbox" />
+
+				<field name="tabcss_left1"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 1"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer1" hr="true" />
+
+				<field name="tabcss_right1"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 1"
+				       class="inputbox" />
+
+				<field name="tabname_2"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 2"
+				       class="inputbox" />
+
+				<field name="tabcss_left2"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 2"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer2" hr="true" />
+
+				<field name="tabcss_right2"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 2"
+				       class="inputbox" />
+
+				<field name="tabname_3"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 3"
+				       class="inputbox" />
+
+				<field name="tabcss_left3"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 3"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer3" hr="true" />
+
+				<field name="tabcss_right3"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 3"
+				       class="inputbox" />
+
+				<field name="tabname_4"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 4"
+				       class="inputbox" />
+
+				<field name="tabcss_left4"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 4"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer4" hr="true" />
+
+				<field name="tabcss_right4"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 4"
+				       class="inputbox" />
+
+				<field name="tabname_5"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 5"
+				       class="inputbox" />
+
+				<field name="tabcss_left5"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 5"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer5" hr="true" />
+
+				<field name="tabcss_right5"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 5"
+				       class="inputbox" />
+
+				<field name="tabname_6"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 6"
+				       class="inputbox" />
+
+				<field name="tabcss_left6"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 6"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer6" hr="true" />
+
+				<field name="tabcss_right6"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 6"
+				       class="inputbox" />
+
+				<field name="tabname_7"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 7"
+				       class="inputbox" />
+
+				<field name="tabcss_left7"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 7"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer7" hr="true" />
+
+				<field name="tabcss_right7"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 7"
+				       class="inputbox" />
+
+				<field name="tabname_8"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 8"
+				       class="inputbox" />
+
+				<field name="tabcss_left8"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 8"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer8" hr="true" />
+
+				<field name="tabcss_right8"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 8"
+				       class="inputbox" />
+
+				<field name="tabname_9"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 9"
+				       class="inputbox" />
+
+				<field name="tabcss_left9"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 9"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer9" hr="true" />
+
+				<field name="tabcss_right9"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 9"
+				       class="inputbox" />
+
+				<field name="tabname_10"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Tab 10"
+				       class="inputbox" />
+
+				<field name="tabcss_left10"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col left Tab 10"
+				       class="inputbox" />
+
+				<field type="spacer" name="spacer10" hr="true" />
+
+				<field name="tabcss_right10"
+				       type="cck"
+				       construction="core_dev_text"
+				       default=""
+				       label="Class for col right Tab 10"
+				       class="inputbox" />
+
+				<field name="global_position_tpl"
+				       type="list"
+				       default="1"
+				       label="Global Position Template default.php"
+				       class="inputbox">
+					<option value="0">JNO</option>
+					<option value="1">JYES</option>
+				</field>
+
+			</fieldset>
+
+			<fieldset name="fields" label="TPL_JU_TAB_LEGEND_FIELDS">
+
+				<field name="field_label"
+				       type="cck"
+				       construction="core_field_label"
+				       default="1"
+				       label="TPL_JU_TAB_SHOW_LABEL"
+				       class="inputbox" />
+
+				<field name="field_description"
+				       type="cck"
+				       construction="core_field_description"
+				       default="0"
+				       label="TPL_JU_TAB_SHOW_DESCRIPTION"
+				       class="inputbox" />
+
+			</fieldset>
+			
+			<fieldset name="positions" label="TPL_JU_TAB_LEGEND_POSITIONS">
+
+				<field name="position_clear"
+				       type="list"
+				       default="1"
+				       label="TPL_JU_TAB_CLEAR_POSITION"
+				       class="inputbox">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field name="variation_default"
+				       type="cck"
+				       construction="core_variation"
+				       default=""
+				       label="TPL_JU_TAB_DEFAULT_VARIATION"
+				       class="inputbox"
+				       cck_selectlabel="Inherited" />
+
+				<field name="position_hidden"
+				       type="list"
+				       default="1"
+				       label="TPL_JU_TAB_HIDDEN_POSITION"
+				       description=""
+				       class="inputbox">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+				</field>
+
+				<field name="position_modal"
+				       type="list"
+				       default="1"
+				       label="TPL_JU_TAB_MODAL_POSITION"
+				       class="inputbox">
+					<option value="0">JHIDE</option>
+					<option value="1">JSHOW</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+				</field>
+
+			</fieldset>
+		</fields>
+
+	</config>
+</extension>
