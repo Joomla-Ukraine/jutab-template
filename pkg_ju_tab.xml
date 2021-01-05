@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="package" version="3.9" method="upgrade">
+	<name>pkg_ju_tab</name>
+	<packagename>ju_tab</packagename>
+	<packager>Joomla! Ukraine</packager>
+	<packagerurl>https://joomla-ua.org</packagerurl>
+	<copyright>Copyright (C) 2017-2021 Joomla! Ukraine. All Rights Reserved.</copyright>
+	<license>GNU General Public License version 2 or later.</license>
+	<creationDate>@date@</creationDate>
+	<description>Template JUTab for SEBLOD CCK - https://joomla-ua.org</description>
+	<version>@version@</version>
+	<scriptfile>pkg_script.php</scriptfile>
+	<languages folder="languages">
+		<language tag="en-GB">en-GB/en-GB.pkg_ju_tab.sys.ini</language>
+	</languages>
+	<files folder="extensions">
+		<file type="plugin" id="plg_system_blank" group="system">plg_system_blank.zip</file>
+		<file type="template" id="tpl_ju_tab" client="site">tpl_ju_tab.zip</file>
+	</files>
+	<update>https://joomla-ua.org/update/pkg/jutab.xml</update>
+    <updateservers>
+        <server type="extension" priority="1" name="JUTab">https://joomla-ua.org/update/pkg/jutab.xml</server>
+    </updateservers>
+</extension>
