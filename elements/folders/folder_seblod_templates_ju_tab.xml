@@ -14,7 +14,7 @@
 		<title>JUTab</title>
 		<name>ju_tab</name>
 		<color>#184d9d</color>
-		<introchar>Li</introchar>
+		<introchar>T</introchar>
 		<colorchar>#ffffff</colorchar>
 		<elements>field,template</elements>
 		<icon_path />
