@@ -2,6 +2,17 @@
 
 Template for Form & Content Type Manager
 
+## JUSebCCK library support
+
+This template used JUSebCCK library for render tabs.
+
+**JUSebCCK repo:** https://github.com/Joomla-Ukraine/JUSebCCK
+
+## ToDo
+* Add override template (for folder `/html`)
+* Add bootstrap templates
+* etc...
+
 ## Sponsors
 
 [![JetBrains](https://avatars0.githubusercontent.com/u/878437?s=200&v=4)](https://www.jetbrains.com/)
