@@ -8,6 +8,9 @@ This template used JUSebCCK library for render tabs.
 
 **JUSebCCK repo:** https://github.com/Joomla-Ukraine/JUSebCCK
 
+## Demo
+![Demo 1](screenshots/demo_01.jpg)
+
 ## ToDo
 * Add override template (for folder `/html`)
 * Add bootstrap templates
